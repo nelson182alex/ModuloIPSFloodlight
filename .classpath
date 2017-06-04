@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/bin" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/java" output="target/bin"/>
 	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry kind="src" output="target/bin-test" path="src/test/java"/>
+        <classpathentry kind="src" path="src/test/java" output="target/bin-test"/>
 	<classpathentry kind="src" path="src/test/resources"/>
-	<classpathentry kind="src" output="target/bin" path="lib/gen-java"/>
+        <classpathentry kind="src" path="lib/gen-java" output="target/bin"/>
 	<classpathentry exported="true" kind="lib" path="lib/args4j-2.0.16.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/cglib-nodep-2.2.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/concurrentlinkedhashmap-lru-1.2.jar"/>
@@ -42,7 +42,6 @@
 	<classpathentry exported="true" kind="lib" path="lib/org.restlet.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/org.simpleframework.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/home/nelson/driver/sqlite-jdbc-3.14.2.1.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/bin"/>
 </classpath>

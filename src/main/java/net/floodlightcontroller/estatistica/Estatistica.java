@@ -530,7 +530,7 @@ public void detectarAtaqueGeral(){
 	// Cálculo de Z
 	public Double calcularZ(double mediaN, double desvioPadraoN, int n, double mediaA, double desvioPadraoR, int r){
 		double z = 0;
-		z = (Math.abs(mediaN - mediaA))/(Math.sqrt(Math.pow(desvioPadraoN, 2)/n) + Math.sqrt(Math.pow(desvioPadraoR, 2)/r));
+		z = (Math.abs(mediaN - mediaA))/(Math.sqrt(Math.pow(desvioPadraoN, 2)/n + Math.pow(desvioPadraoR, 2)/r));
 		return z;
 	}
 	
